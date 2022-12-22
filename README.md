@@ -18,11 +18,11 @@ cd openwrt && make menuconfig
 
 
 说明：
-基于官方原版openwrt-21.02.3编译: 
+基于官方原版openwrt-222.03.2编译: 
 
 REPO_URL: https://github.com/openwrt/openwrt
 
-REPO_BRANCH: v21.02.3
+REPO_BRANCH: v22.03.2
 
 git clone $REPO_URL -b $REPO_BRANCH openwrt
 
