@@ -10,20 +10,6 @@
 
 name: Build OpenWrt
 
-env:
-  REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: v22.03.2
-  FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
-  DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
-  UPLOAD_BIN_DIR: true
-  UPLOAD_FIRMWARE: true
-  UPLOAD_COWTRANSFER: false
-  UPLOAD_WETRANSFER: true
-  UPLOAD_RELEASE: true
-  TZ: Asia/Shanghai
-
 on:
   repository_dispatch:
   workflow_dispatch:
@@ -37,6 +23,19 @@ on:
   watch:
     types: started
 
+env:
+  REPO_URL: https://github.com/openwrt/openwrt
+  REPO_BRANCH: v22.03.2
+  FEEDS_CONF: feeds.conf.default
+  CONFIG_FILE: .config
+  DIY_P1_SH: diy-part1.sh
+  DIY_P2_SH: diy-part2.sh
+  UPLOAD_BIN_DIR: true
+  UPLOAD_FIRMWARE: true
+  UPLOAD_COWTRANSFER: false
+  UPLOAD_WETRANSFER: true
+  UPLOAD_RELEASE: true
+  TZ: Asia/Shanghai
 
 jobs:
   build:
