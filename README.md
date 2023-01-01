@@ -28,7 +28,7 @@ git clone $REPO_URL -b $REPO_BRANCH openwrt
 
 增加了luci-app-openclash,luci-app-passwall,luci-app-zerotier,luci-app-adgardhome,luci-app-softethervpn,luci-app-accesscontrol,luci-app-aapbind 共7个开源插件，极其精简和稳定（40M左右）。
 
-默认管理IP地址修改为：10.2.2.11
+默认管理IP地址修改为：10.2.2.5
 默认密码为空
 
 官方已编译ipk软件：
