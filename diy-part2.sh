@@ -9,7 +9,7 @@
 #============================================================
 
 # Modify default IP
-sed -i 's/192.168.1.1/10.2.2.11/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.2.2.5/g' package/base-files/files/bin/config_generate
 
 # kms server
 # 'tree/master' --> 'trunk'
